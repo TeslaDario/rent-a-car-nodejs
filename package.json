@@ -1,0 +1,40 @@
+{
+  "name": "rent-a-car-nodejs",
+  "version": "1.0.0",
+  "description": "Nodejs backend for rent-a-car",
+  "main": "server.js",
+  "homepage": "https://github.com/TeslaDario/rent-a-car-nodejs",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TeslaDario/rent-a-car-nodejs.git"
+  },
+  "author": {
+    "name": "Dario Dragisic",
+    "email": "dado.dsa@gmail.com",
+    "phone-BA": "+387 (0)65 360 160",
+    "phone-DE": "+49 (0)1512 203 2684",
+    "url": "https://www.linkedin.com/in/dario-dragisic"
+  },
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-org": "node ./bin/www",
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.4",
+    "tedious": "^14.4.0",
+    "tedious-connection-pool": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
